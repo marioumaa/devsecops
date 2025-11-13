@@ -27,7 +27,7 @@ public class Bloc {
     @OneToMany(cascade = CascadeType.ALL,mappedBy = "bloc")
     private List<Chambre> chambres;
     private String apiKey = "AIzaSyA-EXAMPLE-KEY-1234567890";
-    private String password = "P@ssw0rd123!";
+
 
 
 }
